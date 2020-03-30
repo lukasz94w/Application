@@ -1,7 +1,11 @@
-public class Main
-{
+public class Main {
+
+
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        System.out.println("Hello world 2 - test");
+
+
+        DataBaseConn.connect();
+
+        //QueryExecutor.executeQuery("INSERT INTO public.users(\"USER_ID\", \"USER_NAME\") VALUES ('user3', 'username3')");
     }
 }
