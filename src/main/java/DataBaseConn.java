@@ -6,7 +6,7 @@ public class DataBaseConn {
 
     private static String URL = "jdbc:postgresql://localhost:8012/data_base";
     private static String USER = "postgres";
-    private static String PASSWORD = "3W3n3m3nt";
+    private static String PASSWORD = "";
 
     public static Connection connect()
     {
